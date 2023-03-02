@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Evo manifest for renoir -->
+
+    <!-- Remotes -->
+    <remote name="robert" fetch="https://github.com/RobertGarciaa" revision="Evo-13" />
+    <remote name="los" fetch="https://github.com/LineageOS" revision="lineage-19.1" />
+
+    <!-- Device -->
+    <project path="device/xiaomi/renoir" name="android_device_xiaomi_renoir" remote="robert" revision="Evo-13" />
+    <project path="device/xiaomi/sm8350-common" name="device_xiaomi_sm8350-common" remote="robert" revision="Evo-13" />
+
+    <!-- Kernel -->
+    <project path="kernel/xiaomi/sm8350" name="android_kernel_xiaomi_sm8350" remote="los" revision="lineage-19.1" />
+
+    <!-- Vendor -->
+    <project path="vendor/xiaomi/renoir" name="vendor_xiaomi_renoir" remote="robert" revision="Evo-13" />
+    <project path="vendor/xiaomi/sm8350-common" name="vendor_xiaomi_sm8350-common" remote="robert" revision="Evo-13" />
+    
+</manifest>
