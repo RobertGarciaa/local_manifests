@@ -12,8 +12,8 @@
     <project path="device/xiaomi/sm8350-common" name="device_xiaomi_sm8350-common" remote="robert" revision="Evo-13" />
 
     <!-- Kernel -->
-    <project path="kernel/xiaomi/sm8350" name="android_kernel_xiaomi_sm8350" remote="los" revision="lineage-19.1" />
-
+    <project path="kernel/xiaomi/sm8350" name="android_kernel_xiaomi_sm8350" remote="robert" revision="Evo-13" />
+    
     <!-- Vendor -->
     <project path="vendor/xiaomi/renoir" name="vendor_xiaomi_renoir" remote="robert" revision="Evo-13" />
     <project path="vendor/xiaomi/sm8350-common" name="vendor_xiaomi_sm8350-common" remote="robert" revision="Evo-13" />
