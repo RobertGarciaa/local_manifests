@@ -6,6 +6,7 @@
     <!-- Remotes -->
     <remote name="robert" fetch="https://github.com/RobertGarciaa" revision="Evo-13" />
     <remote name="los" fetch="https://github.com/LineageOS" revision="lineage-19.1" />
+    <remote name="gl" fetch="https://gitlab.com/chae0218" revision="Evo-13" />
 
     <!-- Device -->
     <project path="device/xiaomi/renoir" name="android_device_xiaomi_renoir" remote="robert" revision="Evo-13" />
@@ -17,5 +18,8 @@
     <!-- Vendor -->
     <project path="vendor/xiaomi/renoir" name="vendor_xiaomi_renoir" remote="robert" revision="Evo-13" />
     <project path="vendor/xiaomi/sm8350-common" name="vendor_xiaomi_sm8350-common" remote="robert" revision="Evo-13" />
-    
+
+    <!-- Firmware -->
+    <project path="vendor/xiaomi/renoir-firmware" name="vendor_xiaomi_renoir-firmware" remote="gl" revision="Evo-13" />
+
 </manifest>
