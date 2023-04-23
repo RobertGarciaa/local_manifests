@@ -11,6 +11,7 @@
     <!-- Device -->
     <project path="device/xiaomi/renoir" name="RobertGarciaa/android_device_xiaomi_renoir" remote="gh" revision="Arrow13.1" />
     <project path="device/xiaomi/sm8350-common" name="RobertGarciaa/device_xiaomi_sm8350-common" remote="gh" revision="Arrow13.1" />
+    <project path="hardware/xiaomi" name="RobertGarciaa/android_hardware_xiaomi" remote="gh" revision="Arrow13.1" />
 
     <!-- Kernel -->
     <project path="kernel/xiaomi/sm8350" name="RobertGarciaa/android_kernel_xiaomi_sm8350" remote="gh" revision="Arrow13.1" />
