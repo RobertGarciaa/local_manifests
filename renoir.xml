@@ -4,34 +4,25 @@
     <!-- Arrow manifest for renoir -->
 
     <!-- Remotes -->
-    <remote name="gh" fetch="https://github.com" revision="Arrow13.1" />
-    <remote name="gl" fetch="https://gitlab.com" revision="Arrow13.1" />
-    <remote name="ln" fetch="https://github.com/LineageOS" />
+    <remote name="gh" fetch="https://github.com" revision="Evo-13" />
+    <remote name="gl" fetch="https://gitlab.com" revision="Evo-13" />
     <remote name="cr" fetch="https://gitlab.com/crdroidandroid" />
 
     <!-- Device -->
-    <project path="device/xiaomi/renoir" name="RobertGarciaa/android_device_xiaomi_renoir" remote="gh" revision="Arrow13.1" />
-    <project path="device/xiaomi/sm8350-common" name="RobertGarciaa/device_xiaomi_sm8350-common" remote="gh" revision="Arrow13.1" />
-    <project path="hardware/xiaomi" name="RobertGarciaa/android_hardware_xiaomi" remote="gh" revision="Arrow13.1" />
+    <project path="device/xiaomi/renoir" name="RobertGarciaa/android_device_xiaomi_renoir" remote="gh" revision="Evo-13" />
+    <project path="device/xiaomi/sm8350-common" name="RobertGarciaa/device_xiaomi_sm8350-common" remote="gh" revision="Evo-13" />
+    <project path="hardware/xiaomi" name="RobertGarciaa/hardware_xiaomi" remote="gh" revision="tiramisu" />
 
     <!-- Kernel -->
-    <project path="kernel/xiaomi/sm8350" name="RobertGarciaa/android_kernel_xiaomi_sm8350" remote="gh" revision="Arrow13.1" />
-    <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="refs/tags/android-13.0.0_r0.75" />
+    <project path="kernel/xiaomi/sm8350" name="RobertGarciaa/android_kernel_xiaomi_sm8350" remote="gh" revision="Evo-13" />
     
     <!-- Vendor -->
-    <project path="vendor/xiaomi/renoir" name="RobertGarciaa/vendor_xiaomi_renoir" remote="gh" revision="Arrow13.1" />
-    <project path="vendor/xiaomi/sm8350-common" name="RobertGarciaa/vendor_xiaomi_sm8350-common" remote="gh" revision="Arrow13.1" />
+    <project path="vendor/xiaomi/renoir" name="RobertGarciaa/vendor_xiaomi_renoir" remote="gh" revision="Evo-13" />
+    <project path="vendor/xiaomi/sm8350-common" name="RobertGarciaa/vendor_xiaomi_sm8350-common" remote="gh" revision="Evo-13" />
 
     <!-- Clang  -->
     <project path="prebuilts/clang/host/linux-x86/clang-latest" name="android_prebuilts_clang_host_linux-x86_clang-r487747c" remote="cr" revision="13.0" />
 
     <!-- Firmware -->
-    <project path="vendor/xiaomi/renoir-firmware" name="chae0218/vendor_xiaomi_renoir-firmware" remote="gl" revision="Arrow13.1" />
-
-    <!-- Remove Packages (Apps) -->
-  <remove-project name="android_packages_apps_Camera2" />
-
-    <!-- Packages (Apps) -->
-  <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="ln" revision="lineage-20.0" />
-
+    <project path="vendor/xiaomi/renoir-firmware" name="chae0218/vendor_xiaomi_renoir-firmware" remote="gl" revision="Evo-13" />
 </manifest>
