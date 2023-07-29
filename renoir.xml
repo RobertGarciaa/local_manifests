@@ -21,7 +21,7 @@
     <project path="vendor/xiaomi/sm8350-common" name="RobertGarciaa/vendor_xiaomi_sm8350-common" remote="gh" revision="Evo-13" />
 
     <!-- Clang  -->
-    <project path="prebuilts/clang/host/linux-x86/clang-latest" name="android_prebuilts_clang_host_linux-x86_clang-r487747c" remote="cr" revision="13.0" />
+    <project path="prebuilts/clang/host/linux-x86/clang-latest" name="android_prebuilts_clang_host_linux-x86_clang-r498229" remote="cr" revision="13.0" />
 
     <!-- Firmware -->
     <project path="vendor/xiaomi/renoir-firmware" name="chae0218/vendor_xiaomi_renoir-firmware" remote="gl" revision="Evo-13" />
