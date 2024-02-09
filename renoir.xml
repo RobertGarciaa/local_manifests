@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Evo14 manifest for renoir -->
+
+    <!-- Remotes -->
+    <remote name="gh" fetch="https://github.com" revision="Evo-14" />
+    <remote name="gl" fetch="https://gitlab.com" revision="Evo-14" />
+
+    <!-- Device -->
+
+    <!-- Kernel -->
+    <project path="kernel/xiaomi/sm8350" name="EvoX-renoir/android_kernel_xiaomi_sm8350" remote="gh" revision="Evo-14" />
+    
+    <!-- Vendor -->
+    <project path="vendor/xiaomi/renoir" name="EvoX-renoir/vendor_xiaomi_renoir" remote="gh" revision="Evo-14" />
+    <project path="vendor/xiaomi/sm8350-common" name="EvoX-renoir/vendor_xiaomi_sm8350-common" remote="gh" revision="Evo-14" />
+
+    <!-- Firmware -->
+    <project path="vendor/xiaomi/renoir-firmware" name="chae0218/vendor_xiaomi_renoir-firmware" remote="gl" revision="Evo-14" clone-depth="1" />
+</manifest>
