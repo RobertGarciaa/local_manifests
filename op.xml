@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- PixelOS14 manifest for Salami -->
+    <!-- Remotes -->
+    <remote name="hh" fetch="https://github.com" revision="16.0" />
+    <remote name="hhh" fetch="https://github.com" revision="lineage-23.0" />
+    <remote name="hhhh" fetch="https://gitlab.com" revision="baklava" />
+    <remote name="hhhhh" fetch="https://gitlab.com" revision="16.0" />
+
+
+    <!-- Device -->
+    <project path="device/oneplus/salami" name="RobertGarciaa/android_device_oneplus_salami" remote="hh" revision="16.0" />
+
+    <project path="device/oneplus/sm8550-common" name="RobertGarciaa/android_device_oneplus_sm8550-common" remote="hh" revision="16.0" />
+    
+    <project path="hardware/oplus" name="RobertGarciaa/android_hardware_oplus" remote="hh" revision="16.0" />
+
+
+    <!-- Kernel -->
+    <project path="kernel/oneplus/sm8550" name="RobertGarciaa/android_kernel_oneplus_sm8550" remote="hh" revision="16.0" />
+
+    <project path="kernel/oneplus/sm8550-devicetrees" name="RobertGarciaa/android_kernel_oneplus_sm8550-devicetrees" remote="hh" revision="16.0" />
+    
+    <project path="kernel/oneplus/sm8550-modules" name="RobertGarciaa/android_kernel_oneplus_sm8550-modules" remote="hh" revision="16.0" />
+
+    <!-- Vendor -->
+    <project path="vendor/oneplus/dolby" name="crdroidandroid/proprietary_vendor_oneplus_dolby" remote="hhhhh" revision="16.0" />
+
+    <!-- Gapps -->
+    <project path="vendor/gapps" name="MindTheGapps/vendor_gapps" remote="hhhh" revision="baklava" />
+
+</manifest>
