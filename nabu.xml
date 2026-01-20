@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- PixelOS14 manifest for Salami -->
+    <!-- Remotes -->
+    <remote name="hh" fetch="https://github.com" revision="16.0" />
+    <remote name="hhhhh" fetch="https://gitlab.com" revision="16.0" />
+
+
+    <!-- Device -->
+    <project path="device/xiaomi/nabu" name="RobertGarciaa/device_xiaomi_nabu" remote="hh" revision="16.0" />
+
+    <project path="device/xiaomi/sm8150-common" name="RobertGarciaa/android_device_xiaomi_sm8150-common" remote="hh" revision="16.0" />
+    
+    <project path="hardware/xiaomi" name="crdroidandroid/android_hardware_xiaomi" remote="hh" revision="16.0" />
+
+
+    <!-- Kernel -->
+    <project path="kernel/xiaomi/sm8150" name="crdroidandroid/android_kernel_xiaomi_sm8150" remote="hh" revision="16.0" />
+
+    <!-- Vendor -->
+    <project path="vendor/xiaomi/nabu" name="RobertGarciaa/proprietary_vendor_xiaomi_nabu" remote="hh" revision="16.0" />
+
+    <project path="vendor/xiaomi/sm8150-common" name="crdroidandroid/proprietary_vendor_xiaomi_sm8150-common" remote="hhhhh" revision="16.0" />
+</manifest>
