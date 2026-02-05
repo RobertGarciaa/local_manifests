@@ -16,7 +16,7 @@
 
 
     <!-- Kernel -->
-    <project path="kernel/xiaomi/sm8150" name="crdroidandroid/android_kernel_xiaomi_sm8150" remote="hh" revision="16.0" />
+    <project path="kernel/xiaomi/sm8150" name="RobertGarciaa/android_kernel_xiaomi_sm8150" remote="hh" revision="16.0" />
 
     <!-- Vendor -->
     <project path="vendor/xiaomi/nabu" name="RobertGarciaa/proprietary_vendor_xiaomi_nabu" remote="hh" revision="16.0" />
