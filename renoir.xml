@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <!-- PixelOS14 manifest for renoir -->
+    <!-- PixelOS16 manifest for renoir -->
     <!-- Remotes -->
     <remote name="hh" fetch="https://github.com" revision="sixteen_ksunext" />
     <remote name="hhh" fetch="https://github.com" revision="sixteen" />
     <remote name="hhhhh" fetch="https://github.com" revision="main" />
-    <remote name="hhhhhh" fetch="https://github.com" revision="sony-1.4_xiaomi" />
-    <remote name="hhhhhhh" fetch="https://gitlab.com" revision="lineage-23.0" />
+    <remote name="hhhhhhh" fetch="https://gitlab.com" revision="lineage-23.2" />
     <remote name="hhhhhhhh" fetch="https://github.com" revision="16.0" />
     <remote name="hhhhhhhhh" fetch="https://gitlab.com" revision="16.0" />
 
@@ -18,8 +17,6 @@
     
     <project path="hardware/xiaomi" name="RobertGarciaa/hardware_xiaomi" remote="hhh" revision="sixteen" />
 
-    <project path="hardware/dolby" name="RobertGarciaa/hardware_dolby" remote="hhhhhh" revision="sony-1.4_xiaomi" />
-
     <!-- Kernel -->
     <project path="kernel/xiaomi/sm8350" name="RobertGarciaa/android_kernel_xiaomi_sm8350" remote="hh" revision="sixteen_ksunext" />
 
@@ -29,12 +26,11 @@
     <project path="vendor/xiaomi/sm8350-common" name="RobertGarciaa/vendor_xiaomi_sm8350-common" remote="hhh" revision="sixteen" />
 
     <!-- Camera -->
-    <project path="vendor/xiaomi/miuicamera-renoir" name="chae0218/proprietary-vendor-xiaomi-miuicamera-renoir" remote="hhhhhhh" revision="lineage-23.1" />
+    <project path="vendor/xiaomi/miuicamera-renoir" name="chae0218/proprietary-vendor-xiaomi-miuicamera-renoir" remote="hhhhhhh" revision="lineage-23.2" />
 
     <!-- BCR -->
     <project path="vendor/bcr" name="RobertGarciaa/vendor_bcr" remote="hhhhh" revision="main" />
 
     <!-- Dolby Atmos -->
-    <project path="packages/apps/DolbyAtmos" name="crdroidandroid/android_packages_apps_DolbyAtmos" remote="hhhhhhhh" revision="16.0" />
     <project path="vendor/xiaomi/dolby" name="chae0218/proprietary_vendor_xiaomi_dolby" remote="hhhhhhhhh" revision="16.0" />
 </manifest>
