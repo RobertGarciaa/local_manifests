@@ -18,7 +18,7 @@
     <project path="hardware/xiaomi" name="RobertGarciaa/hardware_xiaomi" remote="hhh" revision="sixteen" />
 
     <!-- Kernel -->
-    <project path="kernel/xiaomi/sm8350" name="RobertGarciaa/android_kernel_xiaomi_sm8350" remote="hh" revision="sixteen_ksunext" />
+    <project path="kernel/xiaomi/sm8350" name="RobertGarciaa/android_kernel_xiaomi_sm8350" remote="hh" revision="sixteen" />
 
     <!-- Vendor -->
     <project path="vendor/xiaomi/renoir" name="RobertGarciaa/proprietary_vendor_xiaomi_renoir" remote="hhh" revision="sixteen" />
@@ -33,4 +33,6 @@
 
     <!-- Dolby Atmos -->
     <project path="vendor/xiaomi/dolby" name="chae0218/proprietary_vendor_xiaomi_dolby" remote="hhhhhhhhh" revision="16.0" />
+
+    <project path="packages/apps/LunarisDolby" name="crdroidandroid/android_packages_apps_LunarisDolby" remote="hhhhhhhh" revision="16.0" />
 </manifest>
