@@ -3,36 +3,24 @@
 
     <!-- PixelOS16 manifest for renoir -->
     <!-- Remotes -->
-    <remote name="hh" fetch="https://github.com" revision="sixteen_ksunext" />
-    <remote name="hhh" fetch="https://github.com" revision="sixteen" />
-    <remote name="hhhhh" fetch="https://github.com" revision="main" />
-    <remote name="hhhhhhh" fetch="https://gitlab.com" revision="lineage-23.2" />
-    <remote name="hhhhhhhh" fetch="https://github.com" revision="16.0" />
-    <remote name="hhhhhhhhh" fetch="https://gitlab.com" revision="16.0" />
+    <remote name="hhh" fetch="https://github.com" revision="seventeen" />
+    <remote name="hhhh" fetch="https://gitlab.com" revision="seventeen" />
 
     <!-- Device -->
-    <project path="device/xiaomi/renoir" name="RobertGarciaa/android_device_xiaomi_renoir" remote="hhh" revision="sixteen" />
+    <project path="device/xiaomi/renoir" name="RobertGarciaa/android_device_xiaomi_renoir" remote="hhh" revision="seventeen" />
 
-    <project path="device/xiaomi/sm8350-common" name="RobertGarciaa/device_xiaomi_sm8350-common" remote="hhh" revision="sixteen" />
+    <project path="device/xiaomi/sm8350-common" name="RobertGarciaa/device_xiaomi_sm8350-common" remote="hhh" revision="seventeen" />
     
-    <project path="hardware/xiaomi" name="RobertGarciaa/hardware_xiaomi" remote="hhh" revision="sixteen" />
+    <project path="hardware/xiaomi" name="RobertGarciaa/hardware_xiaomi" remote="hhh" revision="seventeen" />
 
     <!-- Kernel -->
-    <project path="kernel/xiaomi/sm8350" name="RobertGarciaa/android_kernel_xiaomi_sm8350" remote="hh" revision="sixteen" />
+    <project path="kernel/xiaomi/sm8350" name="RobertGarciaa/android_kernel_xiaomi_sm8350" remote="hhh" revision="seventeen" />
 
     <!-- Vendor -->
-    <project path="vendor/xiaomi/renoir" name="RobertGarciaa/proprietary_vendor_xiaomi_renoir" remote="hhh" revision="sixteen" />
+    <project path="vendor/xiaomi/renoir" name="RobertGarciaa/proprietary_vendor_xiaomi_renoir" remote="hhh" revision="seventeen" />
 
-    <project path="vendor/xiaomi/sm8350-common" name="RobertGarciaa/vendor_xiaomi_sm8350-common" remote="hhh" revision="sixteen" />
+    <project path="vendor/xiaomi/sm8350-common" name="RobertGarciaa/vendor_xiaomi_sm8350-common" remote="hhh" revision="seventeen" />
 
     <!-- Camera -->
-    <project path="vendor/xiaomi/miuicamera-renoir" name="chae0218/proprietary-vendor-xiaomi-miuicamera-renoir" remote="hhhhhhh" revision="lineage-23.2" />
-
-    <!-- BCR -->
-    <project path="vendor/bcr" name="RobertGarciaa/vendor_bcr" remote="hhhhh" revision="main" />
-
-    <!-- Dolby Atmos -->
-    <project path="vendor/xiaomi/dolby" name="chae0218/proprietary_vendor_xiaomi_dolby" remote="hhhhhhhhh" revision="16.0" />
-
-    <project path="packages/apps/LunarisDolby" name="crdroidandroid/android_packages_apps_LunarisDolby" remote="hhhhhhhh" revision="16.0" />
+    <project path="vendor/xiaomi/miuicamera-renoir" name="chae0218/proprietary-vendor-xiaomi-miuicamera-renoir" remote="hhhh" revision="seventeen" />
 </manifest>
