@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <!-- PixelOS16 manifest for renoir -->
+    <!-- PixelOS17 manifest for renoir -->
     <!-- Remotes -->
-    <remote name="hhh" fetch="https://github.com" revision="seventeen" />
-    <remote name="hhhh" fetch="https://gitlab.com" revision="seventeen" />
+    <remote name="zzz" fetch="https://github.com" revision="seventeen" />
+    <remote name="zzzz" fetch="https://gitlab.com" revision="seventeen" />
 
     <!-- Device -->
-    <project path="device/xiaomi/renoir" name="RobertGarciaa/android_device_xiaomi_renoir" remote="hhh" revision="seventeen" />
+    <project path="device/xiaomi/renoir" name="RobertGarciaa/android_device_xiaomi_renoir" remote="zzz" revision="seventeen" />
 
-    <project path="device/xiaomi/sm8350-common" name="RobertGarciaa/device_xiaomi_sm8350-common" remote="hhh" revision="seventeen" />
+    <project path="device/xiaomi/sm8350-common" name="RobertGarciaa/device_xiaomi_sm8350-common" remote="zzz" revision="seventeen" />
     
-    <project path="hardware/xiaomi" name="RobertGarciaa/hardware_xiaomi" remote="hhh" revision="seventeen" />
+    <project path="hardware/xiaomi" name="RobertGarciaa/hardware_xiaomi" remote="zzz" revision="seventeen" />
 
     <!-- Kernel -->
-    <project path="kernel/xiaomi/sm8350" name="RobertGarciaa/android_kernel_xiaomi_sm8350" remote="hhh" revision="seventeen" />
+    <project path="kernel/xiaomi/sm8350" name="RobertGarciaa/android_kernel_xiaomi_sm8350" remote="zzz" revision="seventeen" />
 
     <!-- Vendor -->
-    <project path="vendor/xiaomi/renoir" name="RobertGarciaa/proprietary_vendor_xiaomi_renoir" remote="hhh" revision="seventeen" />
+    <project path="vendor/xiaomi/renoir" name="RobertGarciaa/proprietary_vendor_xiaomi_renoir" remote="zzz" revision="seventeen" />
 
-    <project path="vendor/xiaomi/sm8350-common" name="RobertGarciaa/vendor_xiaomi_sm8350-common" remote="hhh" revision="seventeen" />
+    <project path="vendor/xiaomi/sm8350-common" name="RobertGarciaa/proprietary_vendor_xiaomi_sm8350-common" remote="zzz" revision="seventeen" />
 
 </manifest>
