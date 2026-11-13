@@ -21,6 +21,4 @@
 
     <project path="vendor/xiaomi/sm8350-common" name="RobertGarciaa/vendor_xiaomi_sm8350-common" remote="hhh" revision="seventeen" />
 
-    <!-- Camera -->
-    <project path="vendor/xiaomi/miuicamera-renoir" name="chae0218/proprietary-vendor-xiaomi-miuicamera-renoir" remote="hhhh" revision="seventeen" />
 </manifest>
